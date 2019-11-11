@@ -17,10 +17,10 @@ def long_planeteer_calls(calls_long)
 end
 
 def find_the_cheese(contains_cheddar)
+  cheese_types = ["cheddar", "gouda", "camembert"]
   for x in contains_cheddar do
     if x in cheese_types
       return x
     end
   end
-  cheese_types = ["cheddar", "gouda", "camembert"]
 end
