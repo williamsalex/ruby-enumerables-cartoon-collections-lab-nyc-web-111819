@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map { |item| item.capitalize+"!"}
+  veggies.map { |item| (item.capitalize)+"!"}
   return veggies
 end
 
