@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(veggies)
-  veggies.each{|veggie, index| veggies[index] = 
+  veggies.each{|veggie, index| veggies[index] = veggies[index].capitalize
 end
 
 def long_planeteer_calls# code an argument here
