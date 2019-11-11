@@ -22,4 +22,5 @@ def find_the_cheese(contains_cheddar)
       return x
     end
   end
+  cheese_types = ["cheddar", "gouda", "camembert"]
 end
