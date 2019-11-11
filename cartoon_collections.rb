@@ -3,11 +3,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map! { |item| (item.capitalize)+"!"}
+  veggies.map! { |item| item.capitalize+"!"}
   return veggies
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls
   # Your code here
 end
 
