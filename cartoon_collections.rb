@@ -19,8 +19,10 @@ end
 def find_the_cheese(contains_cheddar)
   cheese_types = ["cheddar", "gouda", "camembert"]
   for x in contains_cheddar do
-    if x in cheese_types
-      return x
+    for y in cheese_types do
+      if x == y
+        return x
+      end
     end
   end
 end
