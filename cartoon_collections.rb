@@ -25,4 +25,5 @@ def find_the_cheese(contains_cheddar)
       end
     end
   end
+  return nil
 end
